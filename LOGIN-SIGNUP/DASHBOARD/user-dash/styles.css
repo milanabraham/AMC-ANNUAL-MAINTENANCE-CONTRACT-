@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #555;
+}
+
+.content {
+    flex: 5;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.metric {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.metric h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.chart {
+    margin-top: 20px;
+    background-color: gray;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling can be added as needed */

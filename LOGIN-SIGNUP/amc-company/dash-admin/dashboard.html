@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <!-- Include CSS styles for your dashboard here -->
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+    <h2>Welcome, Administrator!</h2>
+    <div class="dashboard">
+        <!-- Display summary information -->
+        <div class="summary">
+            <h3>Summary</h3>
+            <!-- Display total equipment count -->
+            <p>Total Equipment: <span id="total-equipment">100</span></p>
+            <!-- Display pending requests count -->
+            <p>Pending Requests: <span id="pending-requests">5</span></p>
+        </div>
+        <!-- Display equipment distribution chart -->
+        <div class="chart">
+            <h3>Equipment Distribution</h3>
+            <canvas id="equipment-chart"></canvas>
+        </div>
+        <!-- Display recent activity logs -->
+        <div class="activity">
+            <h3>Recent Activity</h3>
+            <ul id="activity-log">
+                <li>User John Doe added new equipment.</li>
+                <li>User Jane Smith approved a request.</li>
+                <!-- Activity log items go here -->
+            </ul>
+        </div>
+    </div>
+    <!-- Include JavaScript for updating dashboard data -->
+    <script src="dashboard.php"></script>
+</body>
+</html>

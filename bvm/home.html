@@ -1,0 +1,177 @@
+<!Doctype html>
+<html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href="home.css">
+<style>
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropbtn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+        position: absolute;
+        top: 0;
+    margin-left: 680px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498db;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-left: 660px;
+  }
+
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #3498db;
+    color: #e74c3c;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+</head>
+  <body>
+ 
+  <header>
+  <div class="container">
+  <!--<img src="logo.png"> -->
+  <h2 id="logo"">BVM AMC </h2>
+     <div class="navbars">
+       <a href="#">HOME</a>
+       <a href="#aboutus">ABOUT US</a>
+       <a href="#contact">CONTACT US</a>
+       <a href="#pricing">PRICING</a>
+       <a href="faq/index.php">FAQ</a>
+       <ul>
+       <li class="dropdown">
+        <a href="#" class="dropbtn">Login</a>
+        <div class="dropdown-content">
+          <a href="AMC-COMPANY/amc-admin/login.php">Admin Login</a>
+          <a href="AMC-COMPANY/amc-users/login.php">Users Login</a>
+          </li>
+          </ul>
+       
+     </div>
+    </div>
+  </header>
+  
+ <main>
+  <section class="hero">
+  
+     <h1 >AMC MANAGEMENT SYSTEM </h1>  
+     <p>Your ultimate solution for Annual Maintainance control management</p>
+     <a href="AMC-COMPANY/amc-users/signup.html" class="c-button">Get Started</a>
+     </section>
+     
+     <section class="features">
+     <h2>Key Features </h2>
+     
+     <ul>
+     <li>Efficent contract management
+     <li>Automated service requests</li>
+     <li>Comprenshive reports and analystics</li>
+     </ul>
+       
+  </section>
+  
+  
+</main>
+
+<section >
+<div id="aboutus">
+<h2>ABOUT US </h2>
+
+<p>BVM HOLYCROSS COLLEGE CHERPUNKAL AMC MANAGEMENT SYSTEM 
+ EFFICENT CONTRACT MANAGEMENT AUTOMATED SERVICE REQUESTS 
+ COMPRENSHIVE REPORTS AND ANALYSTICS</p>
+</div>
+</section>
+
+<section id="contact">
+
+   <form class ="Lform" action="homeac.php" method = "POST" autocomplete="off">
+   <h1 class="login-title">Contact Us </h1>
+   <input type="text" class="login-input" name="user" placeholder="Name"  required><br>
+   <input type="text" class="login-input" name="add" placeholder="Address" required><br>
+   <input type="number" class="login-input" name="phone" placeholder="Phone Number" value="+91" required><br>
+   <input type="text" class="login-input" name="suggest" placeholder="any suggestions..." required><br>
+   <input type="submit" value="Contact us" name="submit" class="login-button" >
+   
+  
+   
+</section>
+
+<div id="pricing">
+
+
+<div class="basic">
+
+<h2> Basic </h2>
+
+<ul>
+<li>Limited Contracts</li>
+<li>Less access Time</li>
+<li>10 contracts</li>
+</ul>
+
+<a href="amc-users/signup.html" class="p-button">Buy Now</a>
+
+</div>
+<div class="stanterd">
+
+<h2> Stanterd </h2>
+
+<ul>
+<li>10 contracts</li>
+<li>10 contracts</li>
+<li>10 contracts</li>
+</ul>
+
+<a href="amc-users/signup.html" class="p-button">Buy Now</a>
+
+</div>
+<div class="premium">
+
+<h2> premium </h2>
+
+<ul>
+<li>10 contracts</li>
+<li>10 contracts</li>
+<li>10 contracts</li>
+</ul>
+<a href="amc-users/signup.html" class="p-button">Buy Now</a>
+<!--<button class="p-btn"><a href="amc-users/signup.html"> Buy Now  </a></button> -->
+
+
+
+</div>
+
+
+
+
+</div>
+
+<a href="#" id="gotop">Top</a>
+
+  <footer>
+  
+  <p>&copy;2023 <span>MILANS AMC</span> . ALL RIGHTS RESERVED </footer>
+  
+  
+  </body>
+</html>

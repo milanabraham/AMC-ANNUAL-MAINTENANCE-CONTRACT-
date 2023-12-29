@@ -1,0 +1,27 @@
+/* Add your CSS styles for the dashboard here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.summary, .chart, .activity {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */

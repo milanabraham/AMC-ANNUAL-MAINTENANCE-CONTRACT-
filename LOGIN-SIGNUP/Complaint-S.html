@@ -1,0 +1,60 @@
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <title>Complaint Forum </title>
+ 
+
+ </head>
+ 
+ <body>
+
+ <form name="Cform" method="POST" action="Caction.php" >
+  <h3>Register a Complaint?</h3>
+
+ <input type = "number" name="id" class="login-input" placeholder="Student ID">
+  <input type = "text" name="name" class="login-input" placeholder="Student Name">
+  <select name="deps" style="background-color: azure;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    outline:none;
+    background-color: white;">
+    
+ <option value="bca">BCA </option> 
+ <option value="bsw">BSW  </option>
+ <option value="bcom">BCOM  </option> 
+  <option value="bsc-maths">BSC-MATHS  </option> 
+ </select>
+ 
+ <br>
+ <br>
+ 
+ <select name="Cselect" class="select" style="
+ background-color: azure;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    outline:none;
+    background-color: white;">
+    
+ <option value="System Crash">System Crash </option>
+ <option value="Server issue">Server issue </option>
+ <option value="instant shutdown">instant shutdown </option>
+  <option value="others">others </option>
+ </select>
+ 
+ <br>
+ <br>
+    
+ <textarea name="other" id="clearr" style="border-radius:10px;
+ outline:none;
+ height:60px;
+ width:300px;
+ color:gray"> If others Specify ex:keyboard malfunctioning</textarea>
+ 
+ <input type="hidden" name="hide" value="processing" readonly class="login-input">
+ 
+ <input type="submit" class="login-button" name="submit">
+ </form>
+ </body>
+ </html>
